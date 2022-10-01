@@ -4,8 +4,9 @@
  * @Autor: z.cejay@gmail.com
  * @Date: 2022-10-01 14:37:30
  * @LastEditors: cejay
- * @LastEditTime: 2022-10-01 14:45:28
+ * @LastEditTime: 2022-10-01 18:36:34
 -->
 # upgrade-contract-demo
 
-sol-merger ./dev/host.sol ./build
+    sol-merger ./dev/host.sol ./build
+

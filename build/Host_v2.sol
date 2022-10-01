@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.12;
 
+
+//  MIT
 // OpenZeppelin Contracts (last updated v4.7.0) (utils/StorageSlot.sol)
 library StorageSlot {
     struct AddressSlot {
@@ -33,6 +35,8 @@ contract MyContract {
 
     int256 data = 0;
 
+    int256 data2 = 10;
+
     constructor() {}
 
     function initialize(address _owner) public {
@@ -56,7 +60,15 @@ contract MyContract {
         data = _data;
     }
 
+    function setData2(int256 _data) public {
+        data2 = _data;
+    }
+
     function getData() public view returns (int256) {
         return data;
+    }
+
+    function getData2() public view returns (int256) {
+        return data2;
     }
 }
