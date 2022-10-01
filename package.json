@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^7.1.5",
+    "web3": "^1.7.5",
+    "web3-utils": "^1.7.5"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@openzeppelin/contracts-upgradeable": "^4.8.0-rc.1",
+    "@types/node": "*",
+    "sol-merger": "^4.1.1",
+    "solc": "^0.8.16",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
